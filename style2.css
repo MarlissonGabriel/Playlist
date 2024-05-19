@@ -8,7 +8,7 @@
 }
 :root {
     font-size: 62.5%;
-    background-color: #fdcdff;
+    background-color: #09756c;
     height: 100vh;
 }
 .hide {
@@ -30,7 +30,7 @@
 }
 
 .conteudo-musica img{
-  width: 300px; /* Defina a largura desejada */
+  width: 300px; 
   height: 300px;
 }
 
@@ -75,10 +75,10 @@
   #progressBar::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 16px; /* largura da bolinha */
-    height: 16px; /* altura da bolinha */
-    background: #666; /* cor da bolinha */
-    border-radius: 50%; /* torna a bolinha redonda */
+    width: 16px;
+    height: 16px; 
+    background: #666; 
+    border-radius: 50%; 
     cursor: pointer;
   }
 

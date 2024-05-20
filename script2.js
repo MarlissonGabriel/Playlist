@@ -9,7 +9,7 @@ const buttonAv = document.querySelector('#avancar');
 
 // metodo de audio
 
-const music = new Audio('./assets/MacMiller.mp3');
+const music = new Audio('./assets/GhostTown.mp3');
 let interval;
 
 //funçoes
@@ -54,12 +54,12 @@ function updateMusic() {
   buttonPause.addEventListener('click', pause);
 
   buttonAv.addEventListener('click', () => {
-    window.location.href = 'index2.html';
+    window.location.href = 'index3.html';
   });
   
 
   buttonVo.addEventListener('click', () => {
-    window.location.href = 'index3.html';
+    window.location.href = 'index.html';
   });
   
   updateMusic();
